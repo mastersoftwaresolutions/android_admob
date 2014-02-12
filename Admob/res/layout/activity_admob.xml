@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    tools:context=".AdmobActivity" 
+    android:background="@drawable/splash">
+
+     
+
+    
+        <com.google.ads.AdView
+            android:layout_alignParentBottom="true"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-7352902584215270/7446546746"
+            ads:loadAdOnCreate="true" >
+        </com.google.ads.AdView>
+    
+
+</RelativeLayout>

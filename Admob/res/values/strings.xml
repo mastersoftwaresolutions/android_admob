@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Admob</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tag">Admob Adds</string>
+    <string name="onreceived_adds">Receive Add</string>
+    <string name="onpresent_screen">On Present Screen</string>
+    <string name="leave_app">Leave Application</string>
+    <string name="fail_to_receive_add">Failed to Receive Adds</string>
+    <string name="screen_dismiss">Screen dismiss</string>
+
+</resources>
